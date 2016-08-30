@@ -1,0 +1,25 @@
+# Site settings
+title: Anjankumar H N
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+keywords: > # this means to ignore newlines until "baseurl:"
+  Write a list of keywords for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site keywords.
+email: anjankumarhn@gmail.com
+author: Anjankumar H N
+
+baseurl: ""
+url: "http://anjankumarhn.com" #
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+gems:
+  - jekyll-minifier
+
+jekyll-minifier:
+  exclude: 'atom.xml'
